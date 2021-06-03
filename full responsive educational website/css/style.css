@@ -1,0 +1,270 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
+}
+htmL{scroll-behavior: smooth;}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.nav .nav-list{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    /* background-color: yellow; */
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url(../images/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.logo{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px;
+}
+.logo img {
+    width: 100%;
+    border-radius: 28%;
+    margin: 5px;
+    
+    /* border: 2px solid green; */
+}
+.nav-list li{
+    list-style: none;
+    padding: 24px 17px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+.nav-list li a:hover{
+    color: grey;
+}
+
+.rightnav{
+    /* height: 11vh; */
+    text-align: right;
+    width: 50%;
+    /* background-color: blueviolet; */
+}
+.search{
+    padding: 4px 12px;
+    /* border: 2px solid red; */
+    border-radius: 22px;
+    font-size: 16px;
+    font-family: cursive;
+    font-weight: bolder;
+}
+.burger{
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    top:4px;
+    right: 4px;
+    cursor: pointer;
+    
+
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 3px;
+}
+
+.firstsection{
+    height: 100vh;
+}
+.box-main{
+    display: flex;
+    
+    max-width: 60%;
+    height: 80%;
+    margin: auto;
+    justify-items: center;
+    align-items: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    
+}
+.firsthalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.secondhalf{
+    width: 30%;
+}
+.secondhalf img{
+    width: 100%;
+    border-radius: 14%;
+    border: 2px solid white;
+    padding-top: 10px;
+    display: block;
+    margin: 34px 0;
+    background: black;
+
+}
+.text-big{
+    font-size: 34px;
+    font-weight: bolder;
+    padding: 12px 0;
+
+}
+.text-small{
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+.btn{
+    width: 139px;
+    
+    margin-right: 33px;
+    
+    /* font-size: 16px; */
+    font-family: 'Ubuntu', sans-serif;
+    padding: 2px 7px;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    border: 2px solid white     ;
+
+}
+.btn:hover{
+    
+    background-color: black;
+}
+.btn-sm{
+    padding: 3px 12px;
+    width: 85px;
+    vertical-align: middle;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.search{
+    vertical-align: middle;
+    border-radius: 34px;
+    font-size: 16px;
+    padding: 3px 11px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.secondsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+.subsection{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 12px;
+
+}
+.left-sec{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+}
+.img img {
+    width: 20vw;
+    border-radius: 30px;
+    border: 2px solid black;
+    /* padding-top: 6px; */
+}
+.para{
+    padding: 0 60px;
+    text-align: justify;
+    font-family: 'Ubuntu', sans-serif;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: whitesmoke;
+    height: 100%;
+    font-family: 'Ubuntu', sans-serif;
+}
+.text-center{
+
+    text-align: center;
+    padding-top: 30px;
+   font-family: 'Ubuntu', sans-serif;
+       font-size: 35px;}
+.form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.strech{
+    width: 95%;
+    padding: 9px 3px;
+    margin: 4px 0;
+    font-size: 19px;
+}
+.form button{
+    color: black;
+    border: 1px solid black;
+    margin: 12px 0;
+    padding: 3px 2px;
+    margin-right: 76%;
+    font-size: 16px;
+    width: 84px;
+    height: 28px;
+    background: white;
+    
+}
+
+.form button:hover{
+    background: none;
+    width: 90px;
+    height: 30px; ;
+}
+.contact_input{
+    padding: 4px 12px;
+    border: 2px solid black;
+    border-radius: 7px;
+    font-size: 14px;
+    /* font-family: cursive; */
+    font-weight: bolder;
+    /* background: none; */
+}
+.textarea{
+    border: 2px solid black;
+    /* background: none; */
+    width: 98%;
+    border-radius: 7px;
+    /* font-family: cursive; */
+}
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    color: white;
+    
+}
